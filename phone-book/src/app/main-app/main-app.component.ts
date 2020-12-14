@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormControl, FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 
 @Component({
@@ -58,7 +58,7 @@ import { FormControl, FormBuilder, FormGroup, Validators } from '@angular/forms'
         </tbody>
       </table>
     </div>`,
-  styles: []
+  styles: ['table{width: 100%; margin-top: 20px; text-align:left;} th{background: #333; color: #eee; padding: 5px;} td{border: solid 1px #eeeeee; padding: 5px}']
 })
 
 export class MainAppComponent implements OnInit {
